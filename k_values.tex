@@ -1,0 +1,366 @@
+\documentclass{article}
+\usepackage[version=3]{mhchem}
+\usepackage[a4paper, landscape, margin=20mm]{geometry}
+\usepackage{setspace}
+\doublespacing
+
+\newcommand{\kit}{\textit{k}}
+\newcommand{\sn}[1]{$\times 10^{-#1}$}
+
+\title{\kit-value Comparison of Primary VOC Initial Oxidation Reactions in all Mechanisms}
+\author{Jane Coates}
+
+\begin{document}
+\maketitle
+
+\textbf{All \kit-values in molecules cm$^3$ s$^{-1}$}
+
+\textbf{Carbon Bond Mechanisms \kit-values multiplied by assigned factor in literature}
+\section{Methane - \ce{CH4}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(CH4 + CL) & 9.58 \sn{14} & 9.58 \sn{14} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(CH4 + OH) & 5.78 \sn{15} & 5.56 \sn{15} & 5.56 \sn{15} & 5.74 \sn{15} & 7.56 \sn{15} & 6.14 \sn{15} & 5.78 \sn{15} & 7.01 \sn{15} & 5.73 \sn{15} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 0.96 & 0.96 & 0.99 & 1.31 & 1.06 & 1.00 & 1.21 & 0.99 \\ \hline
+        \kit(CH4 + O1D) & - & - & - & 1.50 \sn{10} & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{Ethane - \ce{C2H6}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(C2H6 + CL) & 5.90 \sn{11} & 5.86 \sn{11} & - &- & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 0.99 & - & - & - & - & - & - & - \\ \hline
+        \kit(C2H6 + OH) & 2.27 \sn{13} & 2.38 \sn{13} & 2.38 \sn{13} & 2.26 \sn{13} & 2.58 \sn{13} & 2.42 \sn{13} & 2.27 \sn{13} & 3.24 \sn{13} & 2.26 \sn{13} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.05 & 1.05 & 0.99 & 1.14 & 1.06 & 1.00 & 1.43 & 0.99 \\
+        \hline \hline
+    \end{tabular}
+\end{center}
+
+\section{Propane - \ce{C3H8}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(C3H8 + CL) & 1.39 \sn{10} & 1.38 \sn{10} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 0.99 & - & - & - & - & - & - & - \\ \hline
+        \kit(C3H8 + OH) & 1.03 \sn{12} & 1.08 \sn{12} & 1.08 \sn{12} & 1.04 \sn{12} & 2.52 \sn{12} & 2.17 \sn{12} & 2.17 \sn{12} & 1.22 \sn{12} & 1.22 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.05 & 1.05 & 1.00 & 2.44 & 2.10 & 2.10 & 1.18 & 1.18 \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{Butane - \ce{C4H10}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(NC4H10 + CL) & 2.06 \sn{10} & 2.18 \sn{10} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.06 & - & - & - & - & - & - & - \\ \hline
+        \kit(NC4H10 + OH) & 2.30 \sn{12} & 2.38 \sn{12} & 2.38 \sn{12} & - & - & - & - & 3.24 \sn{12} & 3.24 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.04 & 1.04 & - & - & - & - & 1.41 & 1.41 \\
+        \hline \hline
+    \end{tabular}
+\end{center} 
+
+\section{2-Methylpropane - \ce{C4H10}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(IC4H10 + CL) & 1.43 \sn{10} & 1.43 \sn{10} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(IC4H10 + OH) & 2.15 \sn{12} & 2.15 \sn{12} & 2.15 \sn{12} & - & - & - & - & 3.24 \sn{12} & 3.24 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & - & - & - & 1.51 & 1.51 \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{Pentane - \ce{C5H12}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(NC5H12 + CL) & 2.80 \sn{10} & 2.80 \sn{10} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(NC5H12 + OH) & 3.91 \sn{12} & 3.91 \sn{12} & 3.91 \sn{12} & 3.50 \sn{12} & 4.73 \sn{12} & 4.73 \sn{12} & 4.38 \sn{12} & 4.05 \sn{12} & 4.05 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & 0.89 & 1.21 & 1.21 & 1.12 & 1.04 & 1.04 \\
+        \hline \hline
+    \end{tabular}
+\end{center} 
+
+\section{2-Methylbutane - \ce{C5H12}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(IC5H12 + CL) & 2.20 \sn{10} & 2.20 \sn{10} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(IC5H12 + OH) & 3.70 \sn{12} & 3.70 \sn{12} & 3.70 \sn{12} & - & - & - & - & 4.05 \sn{12} & 4.05 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & - & - & - & 1.09 & 1.10 \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{Hexane - \ce{C6H14}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(NC6H14 + CL) & 3.40 \sn{10} & 3.40 \sn{10} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(NC6H14 + OH) & 5.40 \sn{12} & 5.40 \sn{12} & 5.40 \sn{12} & - & - & - & - & 4.86 \sn{12} & 4.86 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & - & - & - & 0.90 & 0.90 \\
+        \hline \hline
+    \end{tabular}
+\end{center} 
+
+\section{Heptane - \ce{C7H16}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(NC7H16 + CL) & 3.90 \sn{10} & 3.90 \sn{10} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(NC7H16 + OH) & 6.98 \sn{12} & 6.98 \sn{12} & 6.98 \sn{12} & - & - & - & - & 5.67 \sn{12} & 5.67 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & - & - & - & 0.81 & 0.81 \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{Octane - \ce{C8H18}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(NC8H18 + CL) & 4.6 \sn{10} & 4.60 \sn{10} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(NC8H18 + OH) & 8.61 \sn{12} & 8.60 \sn{12} & 8.61 \sn{12} & - & 9.95 \sn{12} & 1.07 \sn{11} & 1.11 \sn{11} & 6.48 \sn{12} & 6.48 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & 1.16 & 1.24 & 1.29 & 0.75 & 0.75 \\
+        \hline \hline
+    \end{tabular}
+\end{center} 
+
+\section{Ethene - \ce{C2H4}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(C2H4 + NO3) & 1.78 \sn{16} & 2.10 \sn{16} & 2.10 \sn{16} & - & 9.30 \sn{17} & 1.74 \sn{16} & 1.74 \sn{16} & - & 1.78 \sn{16} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.18 & 1.18 & - & 0.52 & 0.98 & 0.98 & - & 1.00 \\ \hline
+        \kit(C2H4 + O3) & 1.36 \sn{18} & 1.39 \sn{18} & 1.37 \sn{18} & 1.52 \sn{18} & 1.50 \sn{16} & 1.37 \sn{18} & 1.37 \sn{18} & 1.63 \sn{18} & 1.52 \sn{18} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & 1.11 & 1.10 & 1.00 & 1.00 & 1.19 & 1.11 \\ \hline
+        \kit(C2H4 + OH) & 7.97 \sn{12} & 7.98 \sn{12} & 7.97 \sn{12} & 8.16 \sn{12} & 8.74 \sn{12} & 8.74 \sn{12} & 8.34 \sn{12} & 8.13 \sn{12} & 8.18 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & 1.02 & 1.10 & 1.10 & 1.05 & 1.02 & 1.03 \\ \hline
+        \kit(C2H4 + O) & - & - & - & - & - & - & - & 6.70 \sn{13} & 6.97 \sn{13} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{Propene - \ce{C3H6}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(C3H6 + NO3) & 8.93 \sn{15} & 9.40 \sn{15} & 9.40 \sn{15} & 8.90 \sn{15} & 1.55 \sn{14} & 3.85 \sn{14} & 3.85 \sn{14} & 7.70 \sn{15} & 4.40 \sn{16} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.05 & 1.05 & 1.00 & 1.74 & 4.32 & 4.32 & 0.86 & 0.05 \\ \hline
+        \kit(C3H6 + O3) & 8.99 \sn{18} & 9.07 \sn{18} & 9.07 \sn{18} & 9.92 \sn{18} & 1.00 \sn{17} & 9.30 \sn{18} & 9.30 \sn{18} & 1.06 \sn{17} & 9.92 \sn{18} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.01 & 1.01 & 1.10 & 1.11 & 1.03 & 1.03 & 1.18 & 1.10 \\ \hline
+        \kit(C3H6 + OH) & 2.91 \sn{11} & 2.87 \sn{11} & 2.91 \sn{11} & 2.87 \sn{11} & 2.97 \sn{11} & 3.15 \sn{11} & 3.15 \sn{11} & 2.90 \sn{11} & 3.20 \sn{11} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 0.99 & 1.00 & 0.99 & 1.02 & 1.08 & 1.08 & 1.00 & 1.10 \\ \hline
+        \kit(C3H6 + O) & - & - & - & - & - & - & - & 3.97 \sn{12} & 3.85 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\ \hline
+        \kit(PAR\_C3H6 + OH) & - & - & - & - & - & - & - & 8.10 \sn{13} & 8.10 \sn{13} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{1-Butene - \ce{C4H8}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(BUT1ENE + NO3) & 1.25 \sn{14} & 1.28 \sn{14} & 1.28 \sn{14} & - & - & - & - & 7.70 \sn{15} & 4.40 \sn{16} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.02 & 1.02 & - & - & - & - & 0.62 & 0.04 \\ \hline
+        \kit(BUT1ENE + O3) & 9.20 \sn{18} & 8.74 \sn{18} & 8.74 \sn{18} & - & - & - & - & 1.06 \sn{17} & 9.92 \sn{18} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 0.95 & 0.95 & - & - & - & - & 1.15 & 1.08 \\ \hline
+        \kit(BUT1ENE + OH) & 3.23 \sn{11} & 3.22 \sn{11} & 3.22 \sn{11} & 5.40 \sn{11} & - & - & - & 2.90 \sn{11} & 3.20 \sn{11} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & 1.67 & - & - & - & 0.90 & 0.99 \\ \hline
+        \kit(BUT1ENE + O) & - & - & - & - & - & - & - & 3.97 \sn{12} & 3.85 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\ \hline
+        \kit(PAR\_BUT1ENE + OH) & - & - & - & - & - & - & - & 1.62 \sn{12} & 1.62 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{2-Methylpropene - \ce{C4H8}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(C4H8 + NO3) & 3.40 \sn{13} & 3.32 \sn{13} & 3.32 \sn{13} & - & 1.16 \sn{12} & 4.01 \sn{12} & 4.01 \sn{12} & 5.00 \sn{15} & 5.80 \sn{16} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 0.98 & 0.98 & - & 3.40 & 11.80 & 11.80 & 0.01 & 0.00 \\ \hline
+        \kit(C4H8 + O3) & 1.04 \sn{17} & 1.03 \sn{17} & 1.03 \sn{17} & - & 1.51 \sn{16} & 2.46 \sn{16} & 2.46 \sn{16} & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 0.99 & 0.99 & - & 14.57 & 23.75 & 23.75 &- & - \\ \hline
+        \kit(C4H8 + OH) & 5.27 \sn{11} & 5.29 \sn{11} & 5.29 \sn{11} & - & 6.97 \sn{11} & 7.33 \sn{11} & 7.33 \sn{11} & 5.96 \sn{12} & 9.00 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & 1.32 & 1.39 & 1.39 & 0.11 & 0.17 \\ \hline
+        \kit(ALD2\_C4H8 + O) & - & - & - & - & - & - & - & 8.29 \sn{13} & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\ \hline
+        \kit(FORM\_C4H8 + O) & - & - & - & - & - & - & - & - & 1.45 \sn{13} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\ \hline
+        \kit(FORM\_C4H8 + HO2) &- & - & - & - & - & - & - & - & 8.19 \sn{14} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\ \hline
+        \kit(PAR\_C4H8 + OH) & - & - & - & - & - & - & - & - & 2.43 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{Isoprene - \ce{C5H8}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(C5H8 + NO3) & 6.78 \sn{13} & 6.61 \sn{13} & 6.61 \sn{13} & 6.61 \sn{13} & 5.81 \sn{13} & 8.73 \sn{13} & 6.61 \sn{13} & 3.20 \sn{13} & 6.57 \sn{13} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 0.98 & 0.98 & 0.98 & 0.86 & 1.29 & 0.98 & 0.79 & 0.97 \\ \hline
+        \kit(C5H8 + O3) & 1.14 \sn{17} & 1.15 \sn{17} & 1.15 \sn{17} & 1.14 \sn{17} & 1.28 \sn{17} & 1.15 \sn{17} & 1.15 \sn{17} & 1.20 \sn{17} & 1.15 \sn{17} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.01 & 1.01 & 1.00 & 1.12 & 1.11 & 1.01 & 1.06 & 1.01 \\ \hline
+        \kit(C5H8 + OH) & 1.02 \sn{10} & 1.03 \sn{10} & 1.03 \sn{10} & 1.03 \sn{10} & 1.03 \sn{10} & 1.03 \sn{10} & 1.02 \sn{10} & 9.60 \sn{11} & 1.02 \sn{10} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.01 & 1.01 & 1.01 & 1.01 & 1.01 & 1.00 & 0.94 & 1.00 \\ \hline
+        \kit(C5H8 + O) & - & - & - & - & - & 6.00 \sn{11} & - & 1.80 \sn{11} & 3.60 \sn{11} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\ \hline
+        \kit(C5H8 + NO2) & - & - & - & - & - & - & - & - & 1.50 \sn{19} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\
+        \hline \hline
+    \end{tabular}
+\end{center} 
+
+\section{Benzene - \ce{C6H6}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(BENZENE + OH) & 1.21 \sn{12} & 1.21 \sn{12} & 1.21 \sn{12} & - & - & - & 1.21 \sn{12} & 8.10 \sn{13} & 8.10 \sn{13} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & - & - & 1.00 & 0.67 & 0.67 \\
+        \hline \hline
+    \end{tabular}
+\end{center} \newpage
+
+\section{Toluene - \ce{C7H8}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(TOLUENE + OH) & 5.74 \sn{12} & 5.74 \sn{12} & 5.74 \sn{12} & 5.65 \sn{12} & 6.30 \sn{12} & 6.07 \sn{12} & 6.06 \sn{12} & 6.30 \sn{12} & 6.05 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & 0.98 & 1.10 & 1.06 & 1.05 & 1.10 & 1.05 \\
+        \hline \hline
+    \end{tabular}
+\end{center} 
+
+\section{m-Xylene - \ce{C8H10}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(MXYL + NO3) & 2.60 \sn{16} & 2.60 \sn{16} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(MXYL + OH) & 2.31 \sn{11} & 2.31 \sn{11} & 2.31 \sn{11} & - & 2.81 \sn{11} & 2.45 \sn{11} & 2.31 \sn{11} & 2.53 \sn{11} & 2.53 \sn{11} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & 1.22 & 1.06 & 1.00 & 1.09 & 1.09 \\
+        \hline \hline
+    \end{tabular}
+\end{center} 
+
+\section{o-Xylene - \ce{C8H10}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(OXYL + NO3) & 4.10 \sn{16} & 4.10 \sn{10} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(OXYL + OH) & 1.36 \sn{11} & 1.36 \sn{11} & 1.36 \sn{11} & - & - & - & 1.36 \sn{11} & 2.53 \sn{11} & 2.53 \sn{11} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & - & - & 1.00 & 1.86 & 1.86 \\
+        \hline \hline
+    \end{tabular}
+\end{center} 
+
+\section{p-Xylene - \ce{C8H10}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(PXYL + NO3) & 5.00 \sn{16} & 5.00 \sn{16} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(PXYL + OH) & 1.43 \sn{11} & 1.43 \sn{11} & 1.43 \sn{11} & - & - & - & 1.43 \sn{11} & 2.53 \sn{11} & 2.53 \sn{11} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & - & - & 1.00 & 1.77 & 1.77 \\
+        \hline \hline
+    \end{tabular}
+\end{center} 
+
+\section{Ethylbenzene - \ce{C8H10}}
+
+\begin{center}
+    \begin{tabular}{c|ccccccccc}
+        \hline \hline
+        \textbf{Mechanisms} & \textbf{MCM v3.2} & \textbf{MCM v3.1} & \textbf{CRI v2} & \textbf{MOZART-4} & \textbf{RADM2} & \textbf{RACM} & \textbf{RACM2} & \textbf{CBM-IV} & \textbf{CB05} \\
+        \hline
+        \kit(EBENZ + NO3) & 1.20 \sn{16} & 1.20 \sn{16} & - & - & - & - & - & - & - \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & - & - & - & - & - & - & - \\ \hline
+        \kit(EBENZ + OH) & 7.00 \sn{12} & 7.00 \sn{12} & 7.00 \sn{12} & - & - & - & - & 6.30 \sn{12} & 6.05 \sn{12} \\
+        \kit(mechanism)/\kit(MCM 3.2) & - & 1.00 & 1.00 & - & - & - & - & 0.9 & 0.86 \\ \hline
+        \kit(PAR\_EBENZ + OH) & - & - & - & - & - & - & - & 8.10 \sn{13} & 8.10 \sn{13} \\ 
+        \kit(mechanism)/\kit(MCM 3.2) & - & - & - & - & - & - & - & - & - \\
+        \hline \hline
+    \end{tabular}
+\end{center}
+
+\end{document}
